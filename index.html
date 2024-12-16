@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Алиса в Стране чудес</title>
+    <link rel="shortcut icon" href="img/alica.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="preloader-container">
+        <span class="preloader"></span>
+    </div>
+
+    <div id="game-container">
+        <h1 class="header">НАЙДИ АЛИСУ <br> И НЕ ПОПАДИСЬ <br> КРАСНОЙ КОРОЛЕВЕ</h1>
+        <div id="game-bg"></div>
+        <img id="krasnaja" src="img/krasnaja.png" alt="">
+        <img id="victory" src="img/alica.png" alt="">
+        <button id="game-button" onclick="restartGame()">Играть ещё раз</button>
+        <div id="itemList"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
