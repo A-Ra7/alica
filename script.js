@@ -53,7 +53,7 @@ items.forEach(item => {
                 target.style.display = 'none';
              });
             let gameBg = document.getElementById('game-bg');
-            gameBg.style.opacity = '0.3';
+            gameBg.style.opacity = '0.7';
             const krasnaja = document.getElementById('krasnaja');
             krasnaja.style.display = 'block';
             const gameButton = document.getElementById('game-button');
@@ -71,7 +71,7 @@ items.forEach(item => {
             document.querySelectorAll('.target-x').forEach(targetX => {
                 targetX.style.display = 'none';
                 let gameBg = document.getElementById('game-bg');
-                gameBg.style.opacity = '0.3';
+                gameBg.style.opacity = '0.7';
                 const victory = document.getElementById('victory');
                 victory.style.display = 'block';
                 const gameButton = document.getElementById('game-button');
